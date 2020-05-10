@@ -1,0 +1,10 @@
+<html><head><title>Nyemeal</title><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></head><body><header><app-bar></app-bar><div class="jumbotron background"><div class="container" style="height: 300px;"><h1 class="display-4" style="font-weight: bold; color: white; margin-top: 0; margin-left: 220px; font-size: 40px;">Better Ingredients. Better Nyemeal.</h1><p id="vegan" class="lead" style="color: white;  margin-left: 360px;">Come hungry, leave happy. Taste now.</p></div></div></header><main><div id="veg-title"><h2>Vegetarian</h2></div><div class="overflow-auto" style="margin-left: 30px;"><div id="latestMeals" class="list-group list-group-horizontal"></div></div><div id="meat-title"><h2>Meat Lovers</h2></div><div class="overflow-auto" style="margin-left: 30px;"><div id="meatLovers" class="list-group list-group-horizontal"></div></div></main><script>// When the user scrolls down 50px from the top of the document, resize the header's font size
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("navbar").style.backgroundColor = "red";
+      } else {
+        document.getElementById("navbar").style.backgroundColor = "white";
+      }
+    }</script><script src="bundle.js"></script></body></html>
