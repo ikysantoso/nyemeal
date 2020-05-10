@@ -3,7 +3,7 @@ Restaurant website using webpack and ajax concept
 
 ### How to run the project in local
 
-1. Add your own API key from https://spoonacular.com/food-api/ on 'src/view/main.js'
+1. Add your own API key from https://spoonacular.com/food-api/ on 'src/script/view/main.js'
 ```
 const apiKey = "Put your API here";
 ```
